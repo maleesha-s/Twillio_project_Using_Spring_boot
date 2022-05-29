@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color:#282c34;
+  text-align: center;
+  color: aliceblue;
+}
+.inlineimage {
+  max-width: 470px;
+  margin-right: 8px;
+  margin-left: 10px
+}
+
+.images {
+  display: inline-block;
+  max-width: 98%;
+  height: auto;
+  width: 22%;
+  margin: 1%;
+  left: 20px;
+  text-align: center
+}
+.form-container{
+  background: #4A46D7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+
+}
+.bg{
+
+  height: 500px;
+  width: 500px;
+  
+  
+}
+.bg2{
+ 
+  height: 600px;
+  width: 500px;
+ 
+}
+.photoedit{
+  height: 600px;
+  width: 400px;
+}
+@media screen and (min-width: 1200px) {
+
+  .container-fluid .header .menubar img{
+    height: 150px;
+  }
+  .container .header .menubar img{
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .pho1{
+    display: none;
+  }
+  .container-fluid .header .menubar img{
+    height: 75px;
+  }
+  .container .header .menubar img{
+    height: 75px;
+  }
+}
+.container-fluid .header .menubar .navbar{
+  height: 75px;
+}
+.container .header .menubar .navbar{
+  height: 75px;
+}
+@media screen and (max-width: 768px){
+  .pho{
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px){
+  .photoedit{
+    display: none;
+  }
+}
+.menubar{
+  background-color: linear-gradient(-90deg, #43cea2 , #185a9d);
+}
+.header nav .addbutton{
+  background: linear-gradient(-90deg, #43cea2 , #185a9d);
+  border-radius: 20px;
+  width: 130px;
+}
+.container .row .sellercard{
+  background: linear-gradient(-90deg, #43cea2 , #185a9d);
+  border-radius: 20px;
+  transition: transfrom .3s;
+}
+.container .row .sellercard:hover{
+  transform:translateY(-15px);
+  transition: transfrom 1s;
+}
+.container-fluid .row .sellercard{
+  background: linear-gradient(-90deg, #43cea2 , #185a9d);
+  border-radius: 30px;
+  transition: transfrom .3s;
+}
+.container-fluid .row .sellercard:hover{
+  transform:translateY(-10px);
+  transition: transfrom 1s;
+}
+.container-fluid .text1{
+  font-size: 20px;
+  color: #000000;
+}
+.container-fluid .info{
+  font-size: 20px;
+  color: #000000;
+}
+.text1{
+  font-size: 19px;
+  color: #000;
+}
+.info{
+  line-height: 17px;
+}
+.carousel-inner img{
+  width: auto;
+  height: 550px;
+}
+
+.indexcon{
+  background:  linear-gradient(-90deg, #43cea2 , #185a9d);
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .pho1{
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 768px){
+  .pho{
+    display: none;
+  }
+}
+
+
+
